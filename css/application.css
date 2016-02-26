@@ -5,9 +5,9 @@ Error: File to import not found or unreadable: base/index.
 
 1: // Global Imports
 2: 
-3: @import 'base/index';
-4: @import 'layout/index';
-5: @import 'components/index';
+3: @import "base/index";
+4: @import 'components/index';
+5: @import 'layout/index';
 6: @import 'config';
 7: @import 'styles';
 
@@ -55,4 +55,4 @@ scss/application.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: base/index.\A        Load path: /Users/hillary07/Desktop/blog-template/scss\A         on line 3 of scss/application.scss\A \A 1: // Global Imports\A 2: \A 3: @import 'base/index';\A 4: @import 'layout/index';\A 5: @import 'components/index';\A 6: @import 'config';\A 7: @import 'styles';"; }
+  content: "Error: File to import not found or unreadable: base/index.\A        Load path: /Users/hillary07/Desktop/blog-template/scss\A         on line 3 of scss/application.scss\A \A 1: // Global Imports\A 2: \A 3: @import \"base/index\";\A 4: @import 'components/index';\A 5: @import 'layout/index';\A 6: @import 'config';\A 7: @import 'styles';"; }

@@ -1,0 +1,6 @@
+$start-gradient-color: #B4CEB3
+$end-gradient-color: #4C2C69
+
+.simple-gradient
+  +linear-gradient($start-gradient-color, $end-gradient-color)
+  height: 400px
